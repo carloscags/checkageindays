@@ -1,7 +1,4 @@
 
-
-
-
 checkAge = () => {
     
     const input = document.getElementById("checkAge")
