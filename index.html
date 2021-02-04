@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-box">
+            <h1 class="title">TRANSFORME SUA IDADE EM DIAS:</h1>
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
+                <input id="checkAge" class="input" type="number" name="fname"/>
+            </form>
+            <button class="button" onclick="checkAge()">CHECK AGE</button>
+            <p class="resultDays" id="response"></p>
+            
+        </div>   
+    </div>
+    <script src="age.js"></script>
+</body>
+</html>
