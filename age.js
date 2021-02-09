@@ -1,9 +1,11 @@
-
-checkAge = () => {
-    
-    const input = document.getElementById("checkAge")
-    
+handleAge = () => {
+    const input = document.getElementById("ageInput")
+    validateForm(input.value);
     const age = parseInt(input.value)
+    yearsToDays(age);
+}
+
+yearsToDays = (age) => {
     
     const greenting = age * 365
     
